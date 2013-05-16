@@ -16,7 +16,7 @@
     <td><%= admission.case_id %></td>
     <td><%= admission.status %></td>
     <td><%= admission.date %></td>
-    <td><%= admission.case.name %></td>
+    <td><%= case_name admission.case %></td>
     <td><%= link_to 'Show', admission %></td>
     <td><%= link_to 'Edit', edit_admission_path(admission) %></td>
     <td><%= link_to 'Destroy', admission, method: :delete, data: { confirm: 'Are you sure?' } %></td>
