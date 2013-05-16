@@ -1,7 +1,7 @@
 development:
  adapter: mysql2
  host: mobile.linkcare.es
- database: ruby1
+ database: ruby2
  user: root
  password: linkcare
 

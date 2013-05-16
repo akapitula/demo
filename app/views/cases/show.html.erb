@@ -1,2 +1,13 @@
 <h1>Cases#show</h1>
 <p>El id es <%=@case.name%></p>
+ <% @admissions.each do | a_adm |%>
+  <li>
+    <p>
+      <%= a_adm.status %>
+    </p>
+    <p>
+      <%= a_adm.date %>
+    </p>
+
+  </li>
+      <% end %>

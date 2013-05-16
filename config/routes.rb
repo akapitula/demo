@@ -1,4 +1,7 @@
 MiPrimeraWebRuby::Application.routes.draw do
+  resources :admissions
+
+
   resources(:cases, {:only => [:show, :index]})
   get "cases/show"
 
